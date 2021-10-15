@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "Git is a program which allows the user to save seperate versions of code enableing others to track changes."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,7 +19,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "GitHub is a website which enabling the user to upload their code to a cloud. This website helps save and track versions of code."
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,6 +35,10 @@
 */
 
 //CODE HERE
+const init = {
+    descritption: "initializes the git program in the desired folder.",
+    code: "git init",
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,7 +47,10 @@
 */
 
 //CODE HERE
-
+const clone = {
+    descritption: "Allows user to clone a repository.",
+    code: "git clone REPO_URL",
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +58,10 @@
 */
 
 //CODE HERE
-
+const status = {
+    descritption: "Tells the user about the repository",
+    code: "git status",
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +69,10 @@
 */
 
 //CODE HERE
-
+const add = {
+    descritption: "This command allows user to add files to be tracked in the repository.",
+    code: "git add, git add . ",
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +80,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    descritption: "Creates a snapshot of the files the user is tracking.",
+    code: "git commit, git commit -m",
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +92,7 @@
 */
 
 //CODE HERE
+const push = {
+    descritption: "Grabs local commits and uploads them to GitHub.",
+    code: "git push REPO_URL",
+}
